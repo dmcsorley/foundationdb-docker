@@ -14,4 +14,4 @@ RUN wget https://www.foundationdb.org/downloads/5.1.5/ubuntu/installers/foundati
  rm foundationdb-5.1.5.tar.gz && \
  pip install -e foundationdb-5.1.5
 
-
+ADD start.sh /root/
